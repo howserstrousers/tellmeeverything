@@ -64,4 +64,26 @@
 	h2{
 		font-size: 2rem;
 	}
+
+	#googlemaps { 
+	  height: 100%; 
+	  width: 100%; 
+	  position:absolute; 
+	  top: 0; 
+	  left: 0; 
+	  z-index: 0;
+	}
+
+	.content {
+	  position: relative; 
+	  z-index: 1; /* The z-index should be higher than Google Maps */
+	  width: 50%;
+	  margin: 0 auto;
+	  padding:5%;
+	  background-color: pink;
+	  text-align: center;
+	}
+
+
+
 </style>
