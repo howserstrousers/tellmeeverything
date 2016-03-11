@@ -82,9 +82,10 @@
 
 	.title{
   		margin:0 auto;
-  		margin-top:15%;
+  		margin-top:12%;
   		margin-bottom: 10%;
-  		width:80%;
+  		width:75%;
+  		max-width:600px;
   		height:auto;
   		padding:1%;
 	}
@@ -95,42 +96,24 @@
 	}
 
 	.date{
-	   margin:.5%;
-	   padding:1%;
 	   color:#FF99FF;
 	   background-color: #EF2000;
-	   text-align: center;
-	   width:26%;
-	   height:90px;
 	   top:30%;
 	   left:1%;
-	   position:fixed;
+
 	}
 
 	.time{
-	   margin:.5%;
-	   padding:1%;
 	   color:#00C11D;
 	   background-color: #110FFF;
-	   text-align: center;
-	   width:26%;
-	   height:90px;
 	   top:45%;
 	   left:1%;
-	   position: fixed;
 	}
 
 	.pop{
-		margin:.5%;
-		padding:1%;
 		right:0%;
 		color:#110FFF;
 		background-color: #00C11D;
-		text-align: center;
-		width:26%;
-		height:90px;
-		font-size: 1.5rem;
-		position: fixed;
 		top:30%;
 		right:1%;
 	}
@@ -139,13 +122,23 @@
 		margin:.5%;
 		padding:1%;
 		width:26%;
-		height:90px;
+		height:80px;
 		text-align: center;
 		color:#EF2000;
 		background-color: #FF99FF;
 		top:45%;
 		right:1%;
 		position: fixed;
+	}
+
+	.box{
+		margin:.5%;
+		padding:1%;
+		width:25%;
+		font-size: 1.5rem;
+		position: fixed;
+		text-align: center;
+		height:80px;
 	}
 
 	.contact{
@@ -155,6 +148,70 @@
 		text-align: center;
 		background-color: pink;
 	}
+
+@media screen and (min-width: 650px){
+	html {
+		font-size: 16px;
+	}
+
+	.title{
+  		margin:0 auto;
+  		margin-top:5%;
+  		margin-bottom: 10%;
+  		width:60%;
+  		height:auto;
+  		padding:1%;
+	}
+
+	.date{
+		top:35%;
+	}
+
+	.time{
+		top:50%;
+	}
+
+	.pop{
+		top:35%;
+
+	}
+
+	.location{
+		top:50%;
+	}
+
+	.box{
+	}
+
+}
+
+@media screen and (min-width: 1024px){
+	.title{
+  		margin-top:2%;
+	}
+	.date{
+		top:40%;
+	}
+
+	.time{
+		top:60%;
+	}
+
+	.pop{
+		top:40%;
+	}
+
+	.location{
+		top:60%;
+		width:22%;
+
+	}
+
+	.box{
+		width:22%;
+	}
+}
+
 
 
 
