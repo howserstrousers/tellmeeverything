@@ -23,10 +23,11 @@
 		 
 		    var mapOptions = {
 		        zoom: 14, // initialize zoom level - the max value is 21
-		        streetViewControl: false, // hide the yellow Street View pegman
+		        streetViewControl: true, // hide the yellow Street View pegman
 		        scaleControl: true, // allow users to zoom the Google Map
 		        mapTypeId: google.maps.MapTypeId.ROADMAP,
-		        center: latLng
+		        center: latLng,
+		        Directions: true,
 		    };
 		 
 		    map = new google.maps.Map(document.getElementById('googlemaps'),
@@ -50,36 +51,40 @@
 
 	<div class="content">
 		<div class="title clearfix">
-			<h1>
-				TELL ME EVERYTHING
-			</h1>
+			<img src="img/logo.png"	type="png">	
 		</div>
 
-		<div class="date-time clearfix">
+		<div class="date clearfix">
 			<h2>
 				APRIL 2nd
 			</h2>
+		</div>
 
+		<div class="time clearfix">
 			<h2>
 				8-11 PM
 			</h2>
 
 		</div>
 
-		<div class="location clearfix">
-			<h2>
+		<div class="pop clearfix">
+			<h3>
 				POP ALLSTON
-			</h2>
+			</h3>
+		</div>
+		
+		<div class="location clearfix">
 			<h3>
 				89 Brighton Ave, Boston, MA 02134
 			</h3>
 		</div>
-
+	<!--
 		<div class="contact clearfix">
 			<h4>
 				contact
 			</h4>
 		</div>
+	-->
 	</div>
 
 

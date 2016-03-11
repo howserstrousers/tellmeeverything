@@ -74,32 +74,78 @@
 		z-index: -100;
 	}
 
+	/*red #EF2000 */
+	/*green #00C11D */
+	/*blue #110FFF */
+	/*pink FF99FF */
 	
 
 	.title{
   		margin:0 auto;
-  		background-color: blue;
-  		width:30%;
+  		margin-top:15%;
+  		margin-bottom: 10%;
+  		width:80%;
   		height:auto;
   		padding:1%;
 	}
 
-	.date-time{
-	   margin:4%;
-	   background-color: blue;
-	   width:30%;
-	   height:150px;
+	.title img{
+		margin:0 auto;
+		width:100%;
+	}
+
+	.date{
+	   margin:.5%;
+	   padding:1%;
+	   color:#FF99FF;
+	   background-color: #EF2000;
 	   text-align: center;
-	   float:left;
+	   width:26%;
+	   height:90px;
+	   top:30%;
+	   left:1%;
+	   position:fixed;
+	}
+
+	.time{
+	   margin:.5%;
+	   padding:1%;
+	   color:#00C11D;
+	   background-color: #110FFF;
+	   text-align: center;
+	   width:26%;
+	   height:90px;
+	   top:45%;
+	   left:1%;
+	   position: fixed;
+	}
+
+	.pop{
+		margin:.5%;
+		padding:1%;
+		right:0%;
+		color:#110FFF;
+		background-color: #00C11D;
+		text-align: center;
+		width:26%;
+		height:90px;
+		font-size: 1.5rem;
+		position: fixed;
+		top:30%;
+		right:1%;
 	}
 
 	.location{
-		margin:4%;
-		width:30%;
-		height:150px;
+		margin:.5%;
+		padding:1%;
+		width:26%;
+		height:90px;
 		text-align: center;
-		float:right;
-		background-color: pink;
+		color:#EF2000;
+		background-color: #FF99FF;
+		top:45%;
+		right:1%;
+		position: fixed;
 	}
 
 	.contact{
