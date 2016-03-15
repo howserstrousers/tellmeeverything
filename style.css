@@ -118,20 +118,16 @@
 
 	.box{
 		margin:1% auto;
-		padding:1%;
-		width:80%;
-		height:40px;
+		padding: .5%auto;
+		width:90%;
+		height:60px;
 		text-align: center;
 	}
 
 	.box img{
 		margin:0 auto;
 		width: auto;
-		height:40px;
-	}
-
-	.pop img{
-		height:45px;
+		height:60px;
 	}
 
 	.contact{
@@ -184,6 +180,10 @@
 		padding: .25% auto;
 		height:auto;
 		text-align: center;
+	}
+
+	.box img{
+		margin: 0 auto;
 	}
 
 }
