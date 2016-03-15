@@ -92,6 +92,7 @@
 
 	.title img{
 		margin:0 auto;
+		padding:1%;
 		width:100%;
 	}
 
@@ -161,7 +162,7 @@
 	}
 
 	.time{
-		top:50%;
+		top:43%;
 		left:1%;
 	}
 
@@ -171,12 +172,12 @@
 	}
 
 	.location{
-		top:50%;
+		top:43%;
 		right:1%;
 	}
 
 	.box{
-		width:28%;
+		width:32%;
 		position:fixed;
 		padding: .25% auto;
 		height:auto;
@@ -198,7 +199,7 @@
 	}
 
 	.time{
-		top:60%;
+		top:53%;
 	}
 
 	.pop{
@@ -206,8 +207,7 @@
 	}
 
 	.location{
-		top:60%;
-		width:22%;
+		top:53%;
 
 	}
 
