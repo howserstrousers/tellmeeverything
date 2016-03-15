@@ -133,11 +133,10 @@
 	}
 
 	.contact{
-		margin:0 auto;
-		width:30%;
-		height:20px;
-		text-align: center;
-		background-color: pink;
+	}
+
+	.contact img{
+		
 	}
 
 @media screen and (min-width: 650px){
@@ -162,7 +161,7 @@
 	}
 
 	.time{
-		top:43%;
+		top:45%;
 		left:1%;
 	}
 
@@ -172,7 +171,7 @@
 	}
 
 	.location{
-		top:43%;
+		top:45%;
 		right:1%;
 	}
 
@@ -188,6 +187,13 @@
 		margin: 0 auto;
 	}
 
+	.contact{
+
+	}
+
+	.contact img{
+	}
+
 }
 
 @media screen and (min-width: 1024px){
@@ -199,7 +205,7 @@
 	}
 
 	.time{
-		top:53%;
+		top:54%;
 	}
 
 	.pop{
@@ -207,7 +213,7 @@
 	}
 
 	.location{
-		top:53%;
+		top:54%;
 
 	}
 
@@ -216,11 +222,15 @@
 	}
 
 	.box img{
-		height:60px;
+		height:70px;
+	}
+	.contact{
 	}
 
 
 @media screen and (min-width: 1224px){
+	
+
 	.box img{
 		height:80px;
 			}
