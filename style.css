@@ -83,7 +83,7 @@
 	.title{
   		margin:0 auto;
   		margin-top:12%;
-  		margin-bottom: 10%;
+  		margin-bottom: 50%;
   		width:75%;
   		max-width:600px;
   		height:auto;
@@ -97,23 +97,23 @@
 
 	.date{
 	   background-color: #EF2000;
-	   top:35%;
+	   margin-top:55%;
 
 	}
 
 	.time{
 	   background-color: #110FFF;
-	   top:45%;
+	   margin-top:65%;
 	}
 
 	.pop{
 		background-color: #00C11D;
-		top:55%;
+		margin-top:75%;
 	}
 
 	.location{
 		background-color: #FF99FF;
-		top:65%;
+		margin-top:85%;
 	}
 
 	.box{
