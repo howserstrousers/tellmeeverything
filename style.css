@@ -119,13 +119,16 @@
 	}
 
 	.box{
-		margin:1% auto;
+		margin:2% auto;
 		padding: .5%auto;
 		width:80%;
 		height:60px;
 		text-align: center;
 		overflow: hidden;
 		opacity: .8;
+		-webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.22);
+		-moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.22);
+		box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.22);
 	}
 
 	.box img{
