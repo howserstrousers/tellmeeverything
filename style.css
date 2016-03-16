@@ -125,6 +125,7 @@
 		height:60px;
 		text-align: center;
 		overflow: hidden;
+		opacity: .8;
 	}
 
 	.box img{
