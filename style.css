@@ -1,6 +1,6 @@
 <style>
 
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 
 	html, body, div, span, applet, object, iframe,
 	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -21,7 +21,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: 'Droid Sans', sans-serif;
 	}
 	/* HTML5 display-role reset for older browsers */
 	article, aside, details, figcaption, figure, 
@@ -42,6 +42,8 @@
 		content: '';
 		content: none;
 	}
+
+	* { Box-sizing: Border-box }
 
 	table {
 		border-collapse: collapse;
@@ -82,14 +84,38 @@
 
 	.title{
   		margin:0 auto;
-  		margin-top:12%;
-  		margin-bottom: 60%;
+  		margin-top:10%;
+  		margin-bottom: 5%;
   		width:90%;
   		max-width:600px;
   		height:auto;
   		padding:1%;
   		overflow: hidden;
 	}
+
+	.paragraph{
+		margin:0 auto;
+		width:90%;
+		padding:10px;
+		background-color:rgba(255,255,255,0.7);
+		height:auto;
+		overflow: hidden;
+		-webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.22);
+		-moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.22);
+		box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.22);
+	}
+
+	.writing{
+		margin:0 auto;
+		color:rgba(0,0,0,1);
+		font-size: 1.3rem;
+		line-height: 1.5rem;
+		font-family: 'Droid Sans', 'sans-serif';
+		text-transform: uppercase;
+		font-weight: 600;
+		padding:0 auto;
+	}
+
 
 	.title img{
 		margin:0 auto;
@@ -121,7 +147,7 @@
 	.box{
 		margin:2% auto;
 		padding: .5%auto;
-		width:80%;
+		width:90%;
 		height:60px;
 		text-align: center;
 		overflow: hidden;
@@ -144,6 +170,19 @@
 		
 	}
 
+	a:hover{
+		color:white;
+	}
+
+	a:visited{
+		color:black;
+	}
+
+	a{
+		color:black;
+		text-decoration: underline;
+	}
+
 @media screen and (min-width: 650px){
 	html {
 		font-size: 16px;
@@ -158,25 +197,49 @@
   		padding:1%;
 	}
 
+	.paragraph{
+		position:fixed;
+		width:65%;
+		top:66%;
+		bottom: 10%;
+		left:17.5%;
+		right:auto;
+		margin:0 auto;
+		padding:10px;
+		background-color:rgba(255,255,255,0.7);
+		overflow: auto;
+		height:32%;
+	}
+
+	.writing{
+		color:rgba(0,0,0,1);
+		font-size: .9rem;
+		line-height: 1.5rem;
+		font-family: 'Droid Sans', 'sans-serif';
+		text-transform: uppercase;
+		font-weight: 400;
+		padding:0 auto;
+		margin-bottom: 2%
+	}
 
 
 	.date{
-		top:35%;
+		top:30%;
 		left:1%;
 	}
 
 	.time{
-		top:45%;
+		top:40%;
 		left:1%;
 	}
 
 	.pop{
-		top:35%;
+		top:30%;
 		right:1%;
 	}
 
 	.location{
-		top:45%;
+		top:40%;
 		right:1%;
 	}
 
@@ -206,19 +269,19 @@
   		margin-top:2%;
 	}
 	.date{
-		top:40%;
+		top:35%;
 	}
 
 	.time{
-		top:54%;
+		top:49%;
 	}
 
 	.pop{
-		top:40%;
+		top:35%;
 	}
 
 	.location{
-		top:54%;
+		top:49%;
 
 	}
 
@@ -237,7 +300,7 @@
 	
 
 	.box img{
-		height:80px;
+		height:70px;
 			}
 }
 }
